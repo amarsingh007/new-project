@@ -24,8 +24,7 @@ public class DBConnection {
 		ex.printStackTrace();
 	}
 	catch(SQLException ex)
-	{
-		ex.printStackTrace();}
+	{ex.printStackTrace();}
 	return con;
 	}
 
